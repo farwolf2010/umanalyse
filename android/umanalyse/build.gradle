@@ -28,7 +28,7 @@ android {
 dependencies {
     
     api "com.android.support:support-v4:${project.supportLibVersion}"
-    api project(':farwolf.weex')
+    api 'com.farwolf.weexplus:farwolf.weex:latest.integration'
     //友盟数据分析
     api 'com.umeng.sdk:common:1.5.0'
     api 'com.umeng.sdk:analytics:7.5.0'
